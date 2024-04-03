@@ -1,0 +1,21 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    margin: 65px 75px;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    box-shadow: 
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#app {
+    background-color: white;
+    height: 100vh;
+}
