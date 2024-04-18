@@ -1,17 +1,46 @@
 <template>
-    <div class="container-fluid text-center">
-        <div class="row navbar-field">
-            <div class="col btn-logo-col"><button class="btn-logo">Logo</button></div>
-            <div class="col navbar-col">
-                <ul class="navbar-ul">
-                    <li><RouterLink to="/">Blog</RouterLink></li>
-                    <li><RouterLink to="/about">About us</RouterLink></li>
-                </ul>
+    <div class="container">
+        <header class="border-bottom lh-1 py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                    <a class="link-secondary" href="#">Subscribe</a>
+                </div>
+                <div class="col-4 text-center">
+                    <RouterLink
+                        class="blog-header-logo text-body-emphasis text-decoration-none"
+                        to="/"
+                        >World AI</RouterLink
+                    >
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <RouterLink class="btn btn-sm btn-outline-secondary" to="/about"
+                        >About us</RouterLink
+                    >
+                </div>
             </div>
-            <div class="col btn-contact-col"><button class="btn-contact">Contac us</button></div>
-        </div>
-        <div class="row banner">
-            <div class="col">1 of 1</div>
+        </header>
+
+        <div class="nav-scroller py-1 mb-3 border-bottom">
+            <nav class="nav nav-underline justify-content-between">
+                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">World</RouterLink>
+                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">U.S.</RouterLink>
+                <RouterLink class="nav-item nav-link link-body-emphasis" to="#"
+                    >Technology</RouterLink
+                >
+                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Design</RouterLink>
+                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Culture</RouterLink>
+                <RouterLink class="nav-item nav-link link-body-emphasis" to="#"
+                    >Business</RouterLink
+                >
+                <RouterLink class="nav-item nav-link link-body-emphasis" to="#"
+                    >Politics</RouterLink
+                >
+                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Opinion</RouterLink>
+                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Science</RouterLink>
+                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Health</RouterLink>
+                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Style</RouterLink>
+                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Travel</RouterLink>
+            </nav>
         </div>
     </div>
 </template>
@@ -21,56 +50,21 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <style scoped>
-.container-fluid {
-    padding: 0px 135px;
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
 }
 
-.btn-logo-col {
-    margin: 58px 0px 51px 0px;
-    padding: 19px 49px 0px 0px;
-    text-align: left;
-}
-
-.navbar-col {
-    margin: auto;
-    padding: 0;
-}
-
-.navbar-ul {
-    display: inline;
-    padding: 0;
-}
-
-.navbar-ul li {
-    list-style: none;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 600;
-    width: 150px;
-    text-align: start;
-}
-
-.btn-contact-col {
-    padding: 0;
-    margin: 0;
-    text-align: right;
-}
-
-.btn-contact {
-    margin: 58px 0px 51px;
-    padding: 19px 49px;
-    border-radius: 52px;
-    border: none;
-    background: linear-gradient(#2ca6fb, #218ef5);
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
-}
-
-.banner {
-    background-image: url(./src/assets/images/banner.jpg);
-    background-position: center;
-    height: 220px;
-    border-radius: 41px;
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
 }
 </style>
