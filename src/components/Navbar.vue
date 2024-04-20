@@ -21,26 +21,7 @@
         </header>
 
         <div class="nav-scroller py-1 mb-3 border-bottom">
-            <nav class="nav nav-underline justify-content-between">
-                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">World</RouterLink>
-                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">U.S.</RouterLink>
-                <RouterLink class="nav-item nav-link link-body-emphasis" to="#"
-                    >Technology</RouterLink
-                >
-                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Design</RouterLink>
-                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Culture</RouterLink>
-                <RouterLink class="nav-item nav-link link-body-emphasis" to="#"
-                    >Business</RouterLink
-                >
-                <RouterLink class="nav-item nav-link link-body-emphasis" to="#"
-                    >Politics</RouterLink
-                >
-                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Opinion</RouterLink>
-                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Science</RouterLink>
-                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Health</RouterLink>
-                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Style</RouterLink>
-                <RouterLink class="nav-item nav-link link-body-emphasis" to="#">Travel</RouterLink>
-            </nav>
+            <nav class="nav nav-underline justify-content-between"></nav>
         </div>
     </div>
 </template>

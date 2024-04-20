@@ -5,7 +5,7 @@
         <h2 class="display-5 link-body-emphasis mb-1">
             The Revolutionary Impact of Artificial Intelligence on the Commercial Sector
         </h2>
-        <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+        <p class="blog-post-meta">April 4, 2024 by <a href="#">Anonimous</a></p>
 
         <p>
             In recent years, artificial intelligence (AI) has emerged as a transformative force in
@@ -81,6 +81,14 @@
             strategic tool for future success.
         </p>
     </article>
+    <footer>
+        <h4>Sources</h4>
+        <ul>
+            <li>McKinsey & Company: "The age of analytics: Competing in a data-driven world"</li>
+            <li>Harvard Business Review: "How AI is Revolutionizing Business Strategy"</li>
+            <li>Forbes: "The Future of AI in Business and Marketing"</li>
+        </ul>
+    </footer>
 </template>
 
 <script setup>
