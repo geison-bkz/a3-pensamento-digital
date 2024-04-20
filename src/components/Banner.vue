@@ -15,7 +15,7 @@
 <script setup></script>
 <style scoped>
 .bg-body-secondary {
-    background-image: url(/src/assets/images/banner.jpg);
+    /*background-image: url(/src/assets/images/banner.jpg);*/
     background-position: center;
 }
 </style>
