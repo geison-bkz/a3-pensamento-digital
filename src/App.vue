@@ -6,6 +6,7 @@ import Banner from '@/components/Banner.vue';
 import './assets/js/color-modes';
 import Thumbnail from './components/Thumbnail.vue';
 import SideContent from './components/SideContent.vue';
+import BlogFooter from './components/BlogFooter.vue';
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import SideContent from './components/SideContent.vue';
             <div class="col-md-4"><SideContent></SideContent></div>
         </div>
     </main>
+    <BlogFooter></BlogFooter>
     <DarkModeButton></DarkModeButton>
 </template>
 

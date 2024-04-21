@@ -1,11 +1,10 @@
 <template>
-    <h3 class="pb-4 mb-4 fst-italic border-bottom">From the Firehose</h3>
-
+    <h3 class="pb-4 mb-4 fst-italic border-bottom">From Anima Education</h3>
     <article class="blog-post">
         <h2 class="display-5 link-body-emphasis mb-1">
             The Revolutionary Impact of Artificial Intelligence on the Commercial Sector
         </h2>
-        <p class="blog-post-meta">April 4, 2024 by <a href="#">Anonimous</a></p>
+        <p class="blog-post-meta">April 4, 2024 by <a href="#">Íris Oliveira</a></p>
 
         <p>
             In recent years, artificial intelligence (AI) has emerged as a transformative force in
